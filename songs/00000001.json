@@ -1,0 +1,164 @@
+{
+	"freebeat": "0.0.2",
+	"title": "Kick Snare",
+	"bpm": 120,
+	"bpb": 4,
+	"tpb": 480,
+	"spb": 4,
+	"loop": {
+		"start": 0,
+		"count": 1
+	},
+	"data": {
+		"events": [
+			[
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 36,
+					"time": 0,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 36,
+					"time": 30,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 240,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 270,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 38,
+					"time": 480,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 38,
+					"time": 510,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 720,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 750,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 36,
+					"time": 960,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 36,
+					"time": 990,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 1200,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 1230,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 38,
+					"time": 1440,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 38,
+					"time": 1470,
+					"velocity": 100
+				},
+				{
+					"type": "noteOn",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 1680,
+					"velocity": 100
+				},
+				{
+					"type": "noteOff",
+					"channel": 9,
+					"noteNumber": 42,
+					"time": 1710,
+					"velocity": 100
+				}
+			]
+		],
+		"tracks": [
+			{
+				"name": "Electric/High Bass Drum",
+				"type": "drum",
+				"bars": 1,
+				"channel": 9,
+				"noteId": 36,
+				"eventTrack": 0
+			},
+			{
+				"name": "Acoustic Snare",
+				"type": "drum",
+				"bars": 1,
+				"channel": 9,
+				"noteId": 38,
+				"eventTrack": 0
+			},
+			{
+				"name": "Closed Hi Hat",
+				"type": "drum",
+				"bars": 1,
+				"channel": 9,
+				"noteId": 42,
+				"eventTrack": 0
+			},
+			{
+				"name": "Tambourine",
+				"type": "drum",
+				"bars": 1,
+				"channel": 9,
+				"noteId": 54,
+				"eventTrack": 0
+			}
+		]
+	}
+}
